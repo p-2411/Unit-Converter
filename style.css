@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    display: flex;
+    background: #F4F4F4;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0284C7;
+    color: white;
+    font-family: "Inter";
+    height: 285px;
+    width: 100vw;
+    
+}
+
+#num-input {
+    width: 7.3125rem;
+    height: 5.1875rem;
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    border: 2px solid #38BDF8;
+
+    background: transparent;
+    color: white;
+
+    font-family: "Inter";
+    font-size: 58px;
+    font-weight: 800;
+
+    padding: 0px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+#convert-btn {
+    border: 0;
+    display: inline-flex;
+    padding: 0.5625rem 1.71875rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.3125rem;
+    background: #FFF;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+    color: #3D3D3D;
+
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+}
+
+
+#content {
+    width: 100vw;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.conversion {
+    width: 31.25rem;
+    height: 6.78581rem;
+    flex-shrink: 0;
+    font-family: Inter;
+    border-radius: 0.29256rem;
+    background: var(--white, #FFF);
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-items: center;
+    align-content: center;
+}
+
+h2 {
+    width: 21.625rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+
+    color: #5A537B;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 100% */
+}
+
+
+p {
+
+    width: 21.625rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    
+    color: #353535;
+    text-align: center;
+
+    /* text-sm/leading-5/font-normal */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+}
