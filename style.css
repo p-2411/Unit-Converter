@@ -77,6 +77,8 @@ body {
 }
 
 .conversion {
+    display: grid;
+
     width: 31.25rem;
     height: 6.78581rem;
     flex-shrink: 0;
@@ -101,6 +103,7 @@ h2 {
     font-style: normal;
     font-weight: 600;
     line-height: 1.25rem; /* 100% */
+    margin-bottom: 0px;
 }
 
 
